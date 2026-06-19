@@ -1,0 +1,49 @@
+{
+    "name": "aichadigital/lara-privacy-core",
+    "description": "Dependency-free GDPR core for lara-privacy: contracts, value objects and pure decisions (no Eloquent, no side effects).",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["gdpr", "rgpd", "privacy", "data-protection", "retention", "contracts"],
+    "authors": [
+        {
+            "name": "Abdelkarim Mateos",
+            "email": "abdelkarim@aichadigital.es"
+        }
+    ],
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.0",
+        "phpstan/phpstan": "^2.0",
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AichaDigital\\LaraPrivacyCore\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AichaDigital\\LaraPrivacyCore\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "pest",
+        "phpstan": "phpstan analyse",
+        "pint": "pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
