@@ -1,6 +1,6 @@
 {
     "name": "aichadigital/lara-privacy-core",
-    "description": "Dependency-free GDPR core for lara-privacy: contracts, value objects and pure decisions (no Eloquent, no side effects).",
+    "description": "Dependency-free GDPR core for lara-privacy: the LegallyRetainable contract and a pure legal-hold decision (no Eloquent, no side effects, no jurisdiction).",
     "type": "library",
     "license": "MIT",
     "keywords": ["gdpr", "rgpd", "privacy", "data-protection", "retention", "contracts"],
